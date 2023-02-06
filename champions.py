@@ -26,21 +26,7 @@ time.sleep(10)
 
 
 
-lista_equipos = []
-lista_pj = []
 
-for datos in range():
-     item = 1
-     for i in range(20):
-                lista_equipos = driver.find_element(By.XPATH,
-                    f'//*[@id="sports-app"]/div/div[3]/div[2]/div/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr[2]/td[3]/div/div/span')
-                lista_equipos.append(lista_equipos[0].text)
-                time.sleep(1)
-                lista_pj = driver.find_elements(By.XPATH,
-                    f'//*[@id="sports-app"]/div/div[3]/div[2]/div/div/div/div/div/div/div[2]/div/div[2]/div/table/tbody/tr[2]/td[4]')
-                lista_pj.append(lista_pj[0].text)
-                item += 1
-                time.sleep(1)
 
 # Crear archivo Excel
 planilha = openpyxl.Workbook()
